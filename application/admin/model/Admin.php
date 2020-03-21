@@ -6,26 +6,28 @@ use think\Model;
 /*管理员表模型*/
 class Admin extends Model
 {
-    private $Admin = [
+    private static $Admin = [
         "aname"=>"",
         "apassword"=>"",
         "addtime"=>0,
         "rule"=>"0",
     ];
 
-    /*管理员登录*/
-    public function modelLogin($username,$password)
+    public static function serAdmin($username,$password)
     {
-        $this->Admin["aname"] = $username;
-        $this->Admin["apassword"] = sha1("YTSZAYC".md5($username).md5($password));
+        self::$Admin["aname"] = $username;
+        self::$Admin["apassword"] = sha1("YTSZAYC".md5($username).md5($password));
+    }
+
+    /*管理员登录*/
+    public function modelLogin()
+    {
         return Admin::where($this->Admin)->find();
     }
 
     /*管理员添加*/
-    public function AdminAdd($username,$password="123456")
+    public function AdminAdd()
     {
-        $this->Admin["aname"] = $username;
-        $this->Admin["apassword"] = sha1("YTSZAYC".md5($username).md5($password));
         $this->Admin["addtime"] = time();
         self::save($this->Admin);
     }
