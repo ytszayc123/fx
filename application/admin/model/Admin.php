@@ -32,4 +32,19 @@ class Admin extends Model
         self::save($this->Admin);
     }
 
+    /*
+     * 管理员列表
+     * */
+    public static function findAdminList()
+    {
+        $adminList = Admin::all();
+        foreach ($adminList as $admin)
+        {
+            $admin->apassword = "***********";
+            $admin->rule = "------";
+        }
+        //$admin->apassword = null;
+        return $adminList;
+    }
+
 }
