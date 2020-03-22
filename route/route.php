@@ -26,7 +26,19 @@ Route::get("view/admin_list","admin/admin/admin_list");
 Route::rule('login','admin/login/login','POST');
 Route::rule('quit','admin/login/quit','GET');
 
-
+/*王赛雄路由*/
+/*会员商城*/
+Route::get("view/goods","admin/goods/index");//商品列表页
+Route::get("view/addgoods","admin/goods/add");//商品添加页
+Route::get("view/updategoods","admin/goods/xgadd");//商品编辑页
+Route::get("view/sizelist",'admin/goods/spec');//规格列表页
+Route::get("view/addsize",'admin/goods/specadd');//规格添加页
+Route::get("view/updatesize",'admin/goods/xgspec');//规格编辑页
+Route::get("view/typelist",'admin/goods/type');//类型列表页
+Route::get("view/addtype",'admin/goods/typeadd');//类型添加页
+Route::get("view/updatelist",'admin/goods/xgtype');//类型编辑页
+Route::get("view/typelist",'admin/goods/type');//类型列表页
+Route::get("view/orderlist",'admin/goods/order');//订单页面
 return [
 
 ];

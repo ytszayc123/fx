@@ -48,7 +48,7 @@
                         </div>
                         <div class="layui-card-header">
                             <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-                            <button class="layui-btn" onclick=xadmin.open('添加商品','{:url("/admin/integral/add")}')><i class="layui-icon"></i>添加商品</button>
+                            <button class="layui-btn" onclick=xadmin.open('添加商品','addgoods')><i class="layui-icon"></i>添加商品</button>
                         </div>
                         <div class="layui-card-body ">
                             <table class="layui-table layui-form">
@@ -79,7 +79,7 @@
                                     <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">
                                       <i class="layui-btn layui-btn-normal">商品状态</i>
                                     </a>
-                                    <a title="编辑"  onclick=xadmin.open('编辑','{:url("/admin/integral/xgadd")}') href="javascript:;">
+                                    <a title="编辑"  onclick=xadmin.open('编辑','updategoods') href="javascript:;">
                                       <i class="layui-btn">修改商品</i>
                                     </a>
                                     <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
