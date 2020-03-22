@@ -37,8 +37,22 @@ Route::get("view/updatesize",'admin/goods/xgspec');//规格编辑页
 Route::get("view/typelist",'admin/goods/type');//类型列表页
 Route::get("view/addtype",'admin/goods/typeadd');//类型添加页
 Route::get("view/updatelist",'admin/goods/xgtype');//类型编辑页
-Route::get("view/typelist",'admin/goods/type');//类型列表页
 Route::get("view/orderlist",'admin/goods/order');//订单页面
+
+/*王赛雄路由*/
+/*积分商城*/
+Route::get("view/integralgoods","admin/integral/integralgoods");//商品列表页
+Route::get("view/integralgoodsadd","admin/integral/integralgoodsadd");//商品添加页
+Route::get("view/updateintegralgoods","admin/integral/updateintegralgoods");//商品编辑页
+Route::get("view/integralsize",'admin/integral/integralsize');//规格列表页
+Route::get("view/integralsizeadd",'admin/integral/integralsizeadd');//规格添加页
+Route::get("view/updateintegralsize",'admin/integral/updateintegralsize');//规格编辑页
+Route::get("view/integraltype",'admin/integral/integraltype');//类型列表页
+Route::get("view/integraltypeadd",'admin/integral/integraltypeadd');//类型添加页
+Route::get("view/updateintegraltype",'admin/integral/updateintegraltype');//类型编辑页
+Route::get("view/integralorder",'admin/integral/integralorder');//订单页面
+
+
 return [
 
 ];
