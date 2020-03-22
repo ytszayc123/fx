@@ -13,7 +13,6 @@ class AdminCache implements CacheInterface
     private $resource = [
         "id"=>0, //id值
         "aname"=>"", //管理员名
-        "apassword"=>"", //管理员密码
         "rule"=>[],     //角色
         "addtime"=>0,  //添加时间
         "phone"=>"",   //电话
@@ -41,17 +40,17 @@ class AdminCache implements CacheInterface
         Cache::set($this->resource["aname"],$this->resource);
     }
 
-    public function getResource()
-    {
-        // TODO: Implement getResource() method.
-        $this->resource["apassword"] = "**************";
-        return $this->resource;
-    }
-
     public function setResource($resource)
     {
         // TODO: Implement setResource() method.
-        //$this->resource = $resource;
-        
+//        $this->resource = $resource;
+//        dump($this->resource);
+        //dump(array_keys($this->resource));
+        foreach (array_keys($this->resource) as $key)
+        {
+            if(array_key_exists($key,$resource) && array_key_exists($key,$this->resource)) {
+                $this->resource[$key] = $resource[$key];
+            }
+        }
     }
 }
