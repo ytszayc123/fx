@@ -18,45 +18,38 @@
         <![endif]--></head>
     
     <body>
-        <div class="layui-fluid1">
+        <div class="layui-fluid">
             <div class="layui-row">
                 <form class="layui-form">
-
                     <div class="layui-form-item">
                         <label for="username" class="layui-form-label">
-                            <span class="x-red">*</span>商品名称</label>
-                        <div class="layui-input-inline" >
-                            <select id="shipping" name="shipping" class="valid" >
-                                <option value="shentong">名称1</option>
-                                <option value="shunfeng">名称2</option></select>
-                        </div>
-                    </div>
-
-
-                        <div class="layui-form-item">
-                            <label for="phone" class="layui-form-label">
-                                <span class="x-red">*</span>规格名称</label>
-                            <div class="layui-input-inline">
-                                <input type="text" id="phone" name="phone" required="" lay-verify="phone" autocomplete="off" class="layui-input"></div>
-                        </div>
-                    <div class="layui-form-item">
-                        <label for="phone" class="layui-form-label">
-                            <span class="x-red">*</span>规格价格</label>
+                            <span class="x-red">*</span>规格类型</label>
                         <div class="layui-input-inline">
-                            <input type="text" id="phone" name="phone" required="" lay-verify="phone" autocomplete="off" class="layui-input"></div>
+                            <input type="text" id="username" name="username" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label for="username" class="layui-form-label">
+                            <span class="x-red">*</span>规格名称</label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="spec" name="username" required="" lay-verify="required" autocomplete="off" class="layui-input"></div>
                     </div>
 
                     <div class="layui-form-item">
                         <label for="phone" class="layui-form-label">
-                            <span class="x-red">*</span>默认规格</label>
+                            <span class="x-red">*</span>是否上架</label>
                         <div class="layui-input-inline">
-                            <input type="radio" name="sex" value="nan" title="不选中" checked>
-                            <input type="radio" name="sex" value="nv" title="选中" ></div>
-                    </div>
+                            <input type="radio" name="sex" value="nan" title="上架">
+                            <input type="radio" name="sex" value="nv" title="下架" checked></div>
 
+                    <div class="layui-form-item layui-form-text">
+            <label for="desc" class="layui-form-label">描述</label>
+            <div class="layui-input-block">
+                <textarea placeholder="请输入内容" id="desc" name="desc" class="layui-textarea"></textarea>
+            </div>
+        </div>
         <div class="layui-form-item">
             <label for="L_repass" class="layui-form-label"></label>
-            <button class="layui-btn" lay-filter="add" lay-submit="">添加</button></div>
+            <button class="layui-btn" lay-filter="add" lay-submit="">确定修改</button></div>
         </form>
         </div>
         </div>
@@ -105,6 +98,25 @@
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(hm, s);
             })();</script>
+
+        <script>
+            layui.use('upload', function(){
+                var upload = layui.upload;
+
+                //执行实例
+                var uploadInst = upload.render({
+                    elem: '#test1' //绑定元素
+                    ,url: '/upload/' //上传接口
+                    ,done: function(res){
+                        //上传完毕回调
+                    }
+                    ,error: function(){
+                        //请求异常回调
+                    }
+                });
+            });
+        </script>
+
     </body>
 
 </html>
