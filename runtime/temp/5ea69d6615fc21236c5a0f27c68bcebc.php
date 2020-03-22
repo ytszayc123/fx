@@ -1,8 +1,30 @@
-{include file="public/mate"/}
-{block name="title"}{/block}
-{block name="header"}
-{/block}
-{block name="content"}
+<?php /*a:3:{s:68:"F:\phpstudy_pro\WWW\jsh\application\admin\view\admin\admin_list.html";i:1584838877;s:63:"F:\phpstudy_pro\WWW\jsh\application\admin\view\public\mate.html";i:1584758642;s:65:"F:\phpstudy_pro\WWW\jsh\application\admin\view\public\footer.html";i:1584668673;}*/ ?>
+<head>
+    <meta charset="UTF-8">
+    <title>后台登录-X-admin2.2</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/xadmin.css">
+    <!-- <link rel="stylesheet" href="./css/theme5.css"> -->
+    <script src="/static/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/static/js/xadmin.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        // 是否开启刷新记忆tab功能
+        // var is_remember = false;
+    </script>
+</head>
+
+
+
+
 <div class="x-nav">
           <span class="layui-breadcrumb">
             <a href="">首页</a>
@@ -54,19 +76,18 @@
                             <th>操作</th>
                         </thead>
                         <tbody>
-                        {foreach $list as $admin}
+                        <?php foreach($list as $admin): ?>
                         <tr>
                             <td>
                                 <input type="checkbox" name=""  lay-skin="primary">
                             </td>
-                            <td>{$admin.id}</td>
-                            <td>{$admin.aname}</td>
+                            <td><?php echo htmlentities($admin['id']); ?></td>
+                            <td><?php echo htmlentities($admin['aname']); ?></td>
                             <!--<td>18925139194</td>-->
                             <!--<td>113664000@qq.com</td>-->
                             <!--<td>超级管理员</td>-->
-                            <td>{$admin.addtime|datatime}</td>
+                            <td><?php echo htmlentities(datatime($admin['addtime'])); ?></td>
                             <td class="td-status">
-                             <!--   {}-->
                                 <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span></td>
                             <td class="td-manage">
                                 <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">
@@ -80,7 +101,7 @@
                                 </a>
                             </td>
                         </tr>
-                        {/foreach}
+                        <?php endforeach; ?>
                         </tbody>
                     </table>
                 </div>
@@ -100,9 +121,16 @@
         </div>
     </div>
 </div>
-{/block}
-{include file="public/footer" /}
-{block name="js"}
+
+<script>//百度统计可去掉
+var _hmt = _hmt || []; (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 <script>
     layui.use(['laydate','form'], function(){
         var laydate = layui.laydate;
@@ -162,4 +190,3 @@
         });
     }
 </script>
-{/block}

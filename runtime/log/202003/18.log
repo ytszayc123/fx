@@ -1,0 +1,2290 @@
+---------------------------------------------------------------
+
+[2020-03-18T17:47:14+08:00] 127.0.0.1 GET jsh.com/
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')'
+---------------------------------------------------------------
+
+[2020-03-18T17:47:34+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.034766s] [吞吐率：28.76req/s] [内存消耗：1,605.47kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')'[F:\phpstudy_pro\WWW\jsh\application\index\controller\Index.php:14]
+---------------------------------------------------------------
+
+[2020-03-18T17:47:51+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.024378s] [吞吐率：41.02req/s] [内存消耗：1,635.77kb] [文件加载：65]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [1]Interface 'app\index\controller\CacheUtil' not found[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:8]
+---------------------------------------------------------------
+
+[2020-03-18T17:48:25+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021094s] [吞吐率：47.41req/s] [内存消耗：1,549.22kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T17:49:53+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.030577s] [吞吐率：32.70req/s] [内存消耗：1,550.78kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T17:53:55+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.029146s] [吞吐率：34.31req/s] [内存消耗：1,550.88kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T17:54:04+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.027434s] [吞吐率：36.45req/s] [内存消耗：1,550.88kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T17:59:48+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022475s] [吞吐率：44.49req/s] [内存消耗：1,549.46kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T17:59:49+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.019329s] [吞吐率：51.74req/s] [内存消耗：1,549.46kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T17:59:50+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018257s] [吞吐率：54.77req/s] [内存消耗：1,549.46kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:00:11+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017978s] [吞吐率：55.62req/s] [内存消耗：1,549.46kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:00:56+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.020264s] [吞吐率：49.35req/s] [内存消耗：1,609.33kb] [文件加载：63]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\index\controller\Debug' not found[F:\phpstudy_pro\WWW\jsh\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+
+[2020-03-18T18:01:05+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021155s] [吞吐率：47.27req/s] [内存消耗：1,610.69kb] [文件加载：64]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8192]Non-static method think\Debug::remark() should not be called statically[F:\phpstudy_pro\WWW\jsh\application\index\controller\Index.php:11]
+---------------------------------------------------------------
+
+[2020-03-18T18:02:22+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021201s] [吞吐率：47.17req/s] [内存消耗：1,551.55kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:48+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021031s] [吞吐率：47.55req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:49+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017659s] [吞吐率：56.63req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:49+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018959s] [吞吐率：52.75req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:49+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017649s] [吞吐率：56.66req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:50+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017121s] [吞吐率：58.41req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:50+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018265s] [吞吐率：54.75req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:50+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018317s] [吞吐率：54.59req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:50+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017694s] [吞吐率：56.52req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:50+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017681s] [吞吐率：56.56req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:03:50+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018376s] [吞吐率：54.42req/s] [内存消耗：1,551.51kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:17:30+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.020320s] [吞吐率：49.21req/s] [内存消耗：1,547.13kb] [文件加载：61]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:19:36+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.020883s] [吞吐率：47.89req/s] [内存消耗：1,547.17kb] [文件加载：61]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:20:22+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022239s] [吞吐率：44.97req/s] [内存消耗：1,633.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: Subordinate[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:34]
+---------------------------------------------------------------
+
+[2020-03-18T18:20:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023971s] [吞吐率：41.72req/s] [内存消耗：1,634.41kb] [文件加载：67]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined function app\common\self()[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:39]
+---------------------------------------------------------------
+
+[2020-03-18T18:20:52+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017911s] [吞吐率：55.83req/s] [内存消耗：1,555.81kb] [文件加载：63]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:22:07+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023867s] [吞吐率：41.90req/s] [内存消耗：1,556.06kb] [文件加载：63]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:25:24+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021285s] [吞吐率：46.98req/s] [内存消耗：1,550.72kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:31:21+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.020863s] [吞吐率：47.93req/s] [内存消耗：1,551.55kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:32:02+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017506s] [吞吐率：57.12req/s] [内存消耗：1,551.41kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:32:10+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.019232s] [吞吐率：52.00req/s] [内存消耗：1,551.48kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:32:22+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018298s] [吞吐率：54.65req/s] [内存消耗：1,551.52kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:34:14+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.024308s] [吞吐率：41.14req/s] [内存消耗：1,551.63kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:34:33+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018157s] [吞吐率：55.08req/s] [内存消耗：1,551.81kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:36:20+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021937s] [吞吐率：45.59req/s] [内存消耗：1,552.15kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:09+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021548s] [吞吐率：46.41req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:36+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017133s] [吞吐率：58.37req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018376s] [吞吐率：54.42req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018006s] [吞吐率：55.54req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017503s] [吞吐率：57.13req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017004s] [吞吐率：58.81req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017851s] [吞吐率：56.02req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018341s] [吞吐率：54.52req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017713s] [吞吐率：56.46req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.016906s] [吞吐率：59.15req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017383s] [吞吐率：57.53req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.017647s] [吞吐率：56.67req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:40:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018465s] [吞吐率：54.16req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:41:10+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021972s] [吞吐率：45.51req/s] [内存消耗：1,633.62kb] [文件加载：67]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [2]Missing argument 1 for app\common\UserCache::SaveAll(), called in F:\phpstudy_pro\WWW\jsh\application\index\controller\Index.php on line 14 and defined[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:36]
+---------------------------------------------------------------
+
+[2020-03-18T18:41:26+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.019196s] [吞吐率：52.09req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:41:34+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.019963s] [吞吐率：50.09req/s] [内存消耗：1,552.40kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:41:49+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.018691s] [吞吐率：53.50req/s] [内存消耗：1,552.62kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:42:22+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.020015s] [吞吐率：49.96req/s] [内存消耗：1,515.98kb] [文件加载：59]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T18:42:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022084s] [吞吐率：45.28req/s] [内存消耗：1,630.45kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误文件所在文件:F:\phpstudy_pro\WWW\jsh\application\common所在行数:40错误内容:参数不能未null[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:40]
+---------------------------------------------------------------
+
+[2020-03-18T18:43:06+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021277s] [吞吐率：47.00req/s] [内存消耗：1,630.09kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误文件所在文件:F:\phpstudy_pro\WWW\jsh\application\common所在行数:40错误内容:参数不能未null[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:40]
+---------------------------------------------------------------
+
+[2020-03-18T18:43:17+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021748s] [吞吐率：45.98req/s] [内存消耗：1,630.45kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误文件所在文件:F:\phpstudy_pro\WWW\jsh\application\common所在行数:40错误内容:参数不能未null[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:40]
+---------------------------------------------------------------
+
+[2020-03-18T18:43:26+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.020700s] [吞吐率：48.31req/s] [内存消耗：1,630.09kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误文件所在文件:F:\phpstudy_pro\WWW\jsh\application\common所在行数:40错误内容:参数不能未null[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:40]
+---------------------------------------------------------------
+
+[2020-03-18T18:43:57+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021359s] [吞吐率：46.82req/s] [内存消耗：1,630.48kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误文件所在文件:F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php所在行数:40错误内容:参数不能未null[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:40]
+---------------------------------------------------------------
+
+[2020-03-18T18:52:14+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.025676s] [吞吐率：38.95req/s] [内存消耗：1,633.00kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Call to undefined method app\common\UserCache::SaveAll()[F:\phpstudy_pro\WWW\jsh\application\index\controller\Index.php:14]
+---------------------------------------------------------------
+
+[2020-03-18T18:52:30+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022046s] [吞吐率：45.36req/s] [内存消耗：1,634.39kb] [文件加载：67]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant username - assumed 'username'[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:38]
+---------------------------------------------------------------
+
+[2020-03-18T18:52:46+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023034s] [吞吐率：43.41req/s] [内存消耗：1,630.84kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误代码所在文件:F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php
+错误出现行数:第49行
+错误原因:不是适应参数[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:48]
+---------------------------------------------------------------
+
+[2020-03-18T18:53:32+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021746s] [吞吐率：45.99req/s] [内存消耗：1,630.84kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误代码所在文件:F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php
+错误出现行数:第49行
+错误原因:传入参数不是预期参数[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:48]
+---------------------------------------------------------------
+
+[2020-03-18T18:54:13+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021015s] [吞吐率：47.59req/s] [内存消耗：1,630.99kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误代码所在文件:F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php
+错误出现行数:第37行
+错误原因:传入参数不是预期参数[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:49]
+---------------------------------------------------------------
+
+[2020-03-18T18:54:58+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.024908s] [吞吐率：40.15req/s] [内存消耗：1,630.99kb] [文件加载：66]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]错误代码所在文件:F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php
+错误出现行数:第37行
+错误原因:传入参数不是预期参数[F:\phpstudy_pro\WWW\jsh\application\common\UserCache.php:49]
+---------------------------------------------------------------
+
+[2020-03-18T19:08:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021203s] [吞吐率：47.16req/s] [内存消耗：1,554.29kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:09:27+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.020445s] [吞吐率：48.91req/s] [内存消耗：1,555.10kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:23+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023557s] [吞吐率：42.45req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:33+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023535s] [吞吐率：42.49req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:34+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021019s] [吞吐率：47.58req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:34+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021757s] [吞吐率：45.96req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:34+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021674s] [吞吐率：46.14req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:34+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022433s] [吞吐率：44.58req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:34+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.024799s] [吞吐率：40.32req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:35+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022105s] [吞吐率：45.24req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:35+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022118s] [吞吐率：45.21req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:35+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021766s] [吞吐率：45.94req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:35+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023462s] [吞吐率：42.62req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:36+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022109s] [吞吐率：45.23req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021376s] [吞吐率：46.78req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022411s] [吞吐率：44.62req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021426s] [吞吐率：46.67req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022141s] [吞吐率：45.17req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:37+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022087s] [吞吐率：45.28req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022416s] [吞吐率：44.61req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021653s] [吞吐率：46.18req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022701s] [吞吐率：44.05req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022188s] [吞吐率：45.07req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022264s] [吞吐率：44.92req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:38+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022928s] [吞吐率：43.61req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021370s] [吞吐率：46.79req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023285s] [吞吐率：42.95req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022299s] [吞吐率：44.84req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:39+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022119s] [吞吐率：45.21req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:40+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023394s] [吞吐率：42.75req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:40+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022319s] [吞吐率：44.81req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:40+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022453s] [吞吐率：44.54req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:40+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022583s] [吞吐率：44.28req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:40+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022471s] [吞吐率：44.50req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:40+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022564s] [吞吐率：44.32req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:41+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022740s] [吞吐率：43.98req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:41+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022657s] [吞吐率：44.14req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:41+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022458s] [吞吐率：44.53req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:41+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022345s] [吞吐率：44.75req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:42+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021595s] [吞吐率：46.31req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:42+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022304s] [吞吐率：44.83req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:42+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.021528s] [吞吐率：46.45req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:42+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.023531s] [吞吐率：42.50req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:42+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022795s] [吞吐率：43.87req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:42+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022235s] [吞吐率：44.97req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:42+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022708s] [吞吐率：44.04req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-18T19:11:43+08:00] 127.0.0.1 GET jsh.com/
+[运行时间：0.022955s] [吞吐率：43.56req/s] [内存消耗：1,555.23kb] [文件加载：62]
+[ info ] [ LANG ] F:\phpstudy_pro\WWW\jsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6898232320; thinkphp_show_page_trace=0|1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'jsh.com',
+)
+[ info ] [ PARAM ] array (
+)
