@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3df99cd5-dcbb-4812-9ba6-9be63db7903d" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/202003/22.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/202003/22.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,18 +72,34 @@
       <option name="presentableId" value="Default" />
       <updated>1584848451414</updated>
       <workItem from="1584848452585" duration="1055000" />
-      <workItem from="1584849509506" duration="73000" />
+      <workItem from="1584849509506" duration="1182000" />
     </task>
+    <task id="LOCAL-00001" summary="王赛雄提交测试">
+      <created>1584849622843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584849622843</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="王赛雄提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="王赛雄提交测试" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584849596274">
+    <state x="575" y="109" key="CommitChangelistDialog2" timestamp="1584849621922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584849596274" />
+    <state x="575" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584849621922" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584849633064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584849633064" />
     <state x="684" y="310" key="git4idea.merge.GitPullDialog" timestamp="1584848554411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

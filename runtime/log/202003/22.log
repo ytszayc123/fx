@@ -2091,3 +2091,18 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.087316s ] mysql:host=47.113.115.38;port=3306;dbname=jsh;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `fx_admin` [ RunTime:0.059541s ]
 [ sql ] [ SQL ] SELECT * FROM `fx_admin` [ RunTime:0.059019s ]
+---------------------------------------------------------------
+
+[2020-03-22T04:14:14+00:00] 127.0.0.1 GET www.fenxiao.com/view/login
+[运行时间：0.015000s] [吞吐率：66.67req/s] [内存消耗：739.41kb] [文件加载：47]
+[ error ] [64]think\__require_file(): Failed opening required 'D:\PHPstudy\PHPTutorial\WWW\fx\vendor\composer/../topthink/think-helper/src/helper.php' (include_path='.;C:\php\pear')[D:\PHPstudy\PHPTutorial\WWW\fx\thinkphp\library\think\Loader.php:416]
+---------------------------------------------------------------
+
+[2020-03-22T04:14:16+00:00] 127.0.0.1 GET www.fenxiao.com/view/login
+[运行时间：0.015001s] [吞吐率：66.66req/s] [内存消耗：739.41kb] [文件加载：47]
+[ error ] [64]think\__require_file(): Failed opening required 'D:\PHPstudy\PHPTutorial\WWW\fx\vendor\composer/../topthink/think-helper/src/helper.php' (include_path='.;C:\php\pear')[D:\PHPstudy\PHPTutorial\WWW\fx\thinkphp\library\think\Loader.php:416]
+---------------------------------------------------------------
+
+[2020-03-22T04:14:25+00:00] 127.0.0.1 GET www.fenxiao.com/view/admin
+[运行时间：0.014001s] [吞吐率：71.42req/s] [内存消耗：739.13kb] [文件加载：47]
+[ error ] [64]think\__require_file(): Failed opening required 'D:\PHPstudy\PHPTutorial\WWW\fx\vendor\composer/../topthink/think-helper/src/helper.php' (include_path='.;C:\php\pear')[D:\PHPstudy\PHPTutorial\WWW\fx\thinkphp\library\think\Loader.php:416]
