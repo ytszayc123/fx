@@ -2,6 +2,7 @@
 namespace app\admin\controller;
 
 use app\admin\model\Admin;
+use app\common\CacheUtile;
 use think\Controller;
 use think\facade\Session;
 
@@ -27,8 +28,17 @@ class Login extends Controller
         $boo = Admin::modelLogin($data["username"],$data["password"]);
         //dump($boo);die;
         if($boo!=null){
-            Session::set("admin_id",$boo["id"]);
-            return toJson(200,"登录成功");
+            switch ($boo->status){
+                case 0:
+                    Session::set("admin_id",$boo["id"]);
+                    $adminCache = CacheUtile::getInstace("admin");
+                    $adminCache->setResource($boo);
+                    $adminCache->set();
+                    return toJson(200,"登录成功");
+                default:
+                    return toJson(400,"账号已停用,请联系管理员");
+            }
+
         }else{
             return toJson(400,"用户名或密码错误");
         }

@@ -1,6 +1,7 @@
 <?php
 namespace app\admin\model;
 
+use app\common\CacheUtile;
 use think\Model;
 
 /*管理员表模型*/
@@ -43,13 +44,16 @@ class Admin extends Model
      * */
     public static function findAdminList()
     {
+        $admin_list = [];
         $adminList = Admin::all();
         foreach ($adminList as $admin)
         {
-            $admin->apassword = "***********";
-            $admin->rule = "------";
+            if($admin->aname !== "admin"){
+                $admin->apassword = "************";
+                $admin_list = array_merge($admin_list,$admin);
+            }
         }
-        return $adminList;
+        return $admin_list;
     }
 
 }
