@@ -20,15 +20,21 @@ class Admin extends Model
     }
 
     /*管理员登录*/
-    public function modelLogin()
+    public static function modelLogin($username ,$password)
     {
-        return Admin::where($this->Admin)->find();
+        $admin = new Admin();
+        $admin->aname = $username;
+        $admin->apassword = sha1("YTSZAYC".md5($username).md5($password));
+        return Admin::where($admin)->find();
     }
 
     /*管理员添加*/
-    public function AdminAdd()
+    public function AdminAdd($username,$password,$rule=0)
     {
-        $this->Admin["addtime"] = time();
+        $admin = new Admin();
+        $admin->aname = $username;
+        $admin->apassword = sha1("YTSZAYC".md5($username).md5($password));
+        $admin->addtime = time();
         self::save($this->Admin);
     }
 
@@ -43,7 +49,6 @@ class Admin extends Model
             $admin->apassword = "***********";
             $admin->rule = "------";
         }
-        //$admin->apassword = null;
         return $adminList;
     }
 

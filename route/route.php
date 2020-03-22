@@ -24,6 +24,7 @@ Route::get("view/admin_list","admin/admin/admin_list");
 /*贺命雄接口路由*/
 //Route::post("login/login","admin/login/login");
 Route::rule('login','admin/login/login','POST');
+Route::rule('quit','admin/login/quit','GET');
 
 
 return [

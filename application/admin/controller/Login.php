@@ -34,4 +34,13 @@ class Login extends Controller
         }
     }
 
+    /*退出*/
+    public function quit()
+    {
+        Session::delete("admin_id");
+        if(Session::get("admin_id")==null){
+            $this->redirect("view/login");
+        }
+    }
+
 }
