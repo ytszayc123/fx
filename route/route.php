@@ -26,6 +26,15 @@ Route::get("view/admin_list","admin/admin/admin_list");
 Route::rule('login','admin/login/login','POST');
 Route::rule('quit','admin/login/quit','GET');
 
+//zhongxuhong
+Route::rule('type/save_add','admin/royalty/save_add','POST');
+Route::get('type/type_list','admin/royalty/level_list');
+Route::get('type/type_add','admin/royalty/level_add');
+Route::get('type/type_edit/:id','admin/royalty/level_edit');
+Route::rule('type/save_edit','admin/royalty/save_edit','POST');
+Route::get('type/type_del/:id','admin/royalty/level_del');
+
+
 
 return [
 
