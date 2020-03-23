@@ -2,41 +2,29 @@
 namespace app\admin\model;
 
 use app\common\CacheUtile;
+use think\Db;
 use think\Model;
 
 /*管理员表模型*/
 class Admin extends Model
 {
-    private static $Admin = [
-        "aname"=>"",
-        "apassword"=>"",
-        "addtime"=>0,
-        "rule"=>"0",
-    ];
-
-    public static function serAdmin($username,$password)
-    {
-        self::$Admin["aname"] = $username;
-        self::$Admin["apassword"] = sha1("YTSZAYC".md5($username).md5($password));
-    }
-
     /*管理员登录*/
-    public static function modelLogin($username ,$password)
+    public static function modelLogin($username,$password)
     {
-        $admin = new Admin();
-        $admin->aname = $username;
-        $admin->apassword = sha1("YTSZAYC".md5($username).md5($password));
-        return Admin::where($admin)->find();
+        return self::where(["aname"=>$username,"apassword"=>md5(sha1("YTSZAYC".md5($username).md5($password)))])
+            ->find();
     }
 
     /*管理员添加*/
-    public function AdminAdd($username,$password,$rule=0)
+    public static function AdminAdd($username,$password,$rule=0)
     {
         $admin = new Admin();
         $admin->aname = $username;
-        $admin->apassword = sha1("YTSZAYC".md5($username).md5($password));
+        $admin->apassword = md5(sha1("YTSZAYC".md5($username).md5($password)));
         $admin->addtime = time();
-        self::save($this->Admin);
+        $admin->status = 1;
+        $admin->rule = 0;
+        return $admin->save();
     }
 
     /*
@@ -44,16 +32,36 @@ class Admin extends Model
      * */
     public static function findAdminList()
     {
-        $admin_list = [];
-        $adminList = Admin::all();
-        foreach ($adminList as $admin)
-        {
-            if($admin->aname !== "admin"){
-                $admin->apassword = "************";
-                $admin_list = array_merge($admin_list,$admin);
-            }
+//        return Db::name("admin")
+//            //->where('aname',"neq","admin")
+//            ->page(10);
+        return Admin::where("aname" ,"neq","admin")
+            ->paginate(10);
+    }
+
+    /*管理员状态修改*/
+    public static function reviseAdminStatus($id,$status)
+    {
+        return self::where(["id"=>$id])->update(["status"=>$status]);
+    }
+
+    /*按要求查询管理员列表*/
+    public static function sreachAdminList($start,$end,$username,$status)
+    {
+        $admin = Db::name("admin")->where("aname","neq","admin");
+        if($start != ""){
+            $admin = $admin->where("addtime","gt",strtotime($start));
         }
-        return $admin_list;
+        if($end != ""){
+            $admin = $admin->where("addtime","lt",strtotime($start));
+        }
+        if($username != ""){
+            $admin = $admin->where("aname","eq",$username);
+        }
+        if($status !=""){
+            $admin = $admin->where("status","eq",$status);
+        }
+        return $admin->paginate(10);
     }
 
 }

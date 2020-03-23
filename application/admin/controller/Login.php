@@ -20,16 +20,15 @@ class Login extends Controller
      */
     public function login()
     {
-        $data = request()->Post();
+        $data =input();
         if(!captcha_check($data["code"])){
             return toJson(400,"验证码输入错误");
         }
-        //dump($data);die();
         $boo = Admin::modelLogin($data["username"],$data["password"]);
-        //dump($boo);die;
         if($boo!=null){
+            //echo $boo["status"];die;
             switch ($boo->status){
-                case 0:
+                case 1:
                     Session::set("admin_id",$boo["id"]);
                     $adminCache = CacheUtile::getInstace("admin");
                     $adminCache->setResource($boo);
@@ -38,7 +37,6 @@ class Login extends Controller
                 default:
                     return toJson(400,"账号已停用,请联系管理员");
             }
-
         }else{
             return toJson(400,"用户名或密码错误");
         }
@@ -49,7 +47,7 @@ class Login extends Controller
     {
         Session::delete("admin_id");
         if(Session::get("admin_id")==null){
-            $this->redirect("view/login");
+            $this->redirect("/view/login");
         }
     }
 

@@ -9,12 +9,25 @@ use think\model\Admin as A;
 
 class Admin extends Controller
 {
+
+    /*管理员列表*/
     public function admin_list()
     {
-        //$adminCache = CacheUtile::getInstace("admin");
-        //dump($adminCache->get("admin"));die;
-        dump(\app\admin\model\Admin::findAdminList());die;
-        $this->assign("list",\app\admin\model\Admin::findAdminList());
+        $data = input();
+        unset($data["/view/admin_list"]);
+        if(!empty($data)){
+            $list = \app\admin\model\Admin::sreachAdminList($data["start"],$data["end"],$data["username"],$data["status"]);
+        }else{
+            $list = \app\admin\model\Admin::findAdminList();
+        }
+        $this->assign("list",$list);//分页数据
+        $this->assign("count",$list->total());//总条数
+        return $this->fetch();
+    }
+
+    /*管理员添加*/
+    public function admin_add()
+    {
         return $this->fetch();
     }
 }
