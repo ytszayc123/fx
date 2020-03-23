@@ -1,9 +1,6 @@
 <?php
 namespace app\common;
 
-use think\Exception;
-use think\facade\Cache;
-
 class UserCache
 {
     private $resurce = [
@@ -14,6 +11,7 @@ class UserCache
         "RealName"=>"",//用户真实姓名
         "InvitationCode"=>"", //用户唯一邀请码
         "Commission"=>null,//用户佣金
+        "Integral" =>0,//用户积分
     ];
 
 //    /*

@@ -10,9 +10,6 @@ interface CacheInterface
     /*设置缓存数据*/
     public function set();
 
-    /*获取缓存数据配置*/
-    public function getResource();
-
     /*设置缓存数据配置*/
     public function setResource($resource);
 }

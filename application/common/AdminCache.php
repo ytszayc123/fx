@@ -13,11 +13,8 @@ class AdminCache implements CacheInterface
     private $resource = [
         "id"=>0, //id值
         "aname"=>"", //管理员名
-        "apassword"=>"", //管理员密码
         "rule"=>[],     //角色
         "addtime"=>0,  //添加时间
-        "phone"=>"",   //电话
-        "email"=>""   //邮箱
     ];
 
     public function get($key)
@@ -34,24 +31,24 @@ class AdminCache implements CacheInterface
 
     public function set()
     {
+        /*查询缓存*/
         $resource = Cache::get($this->resource["aname"]);
-        if($resource){
+        if($resource){//缓存已存在,删除
             Cache::rm($this->resource["aname"]);
         }
+        //存储缓存数据
         Cache::set($this->resource["aname"],$this->resource);
-    }
-
-    public function getResource()
-    {
-        // TODO: Implement getResource() method.
-        $this->resource["apassword"] = "**************";
-        return $this->resource;
     }
 
     public function setResource($resource)
     {
         // TODO: Implement setResource() method.
-        //$this->resource = $resource;
-        
+
+        /*遍历类数组变量*/
+        foreach (array_keys($this->resource) as $key)
+        {
+            /*获取缓存数据*/
+            $this->resource[$key] = $resource[$key];
+        }
     }
 }
