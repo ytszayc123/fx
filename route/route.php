@@ -66,8 +66,9 @@ Route::get('type/type_add','admin/royalty/level_add');
 Route::get('type/type_edit/:id','admin/royalty/level_edit');
 Route::rule('type/save_edit','admin/royalty/save_edit','POST');
 Route::get('type/type_del/:id','admin/royalty/level_del');
-
-
+Route::rule('royalty_list','admin/royalty/royalty_list','GET');
+Route::rule('royalty_add','admin/royalty/royalty_add');
+Route::rule('royalty_edit','admin/royalty/royalty_edit');
 
 return [
 
