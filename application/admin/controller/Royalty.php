@@ -59,6 +59,26 @@ class Royalty extends System
     }
 
 
+//  配置列表
+    public function royalty_list(){
+
+        return $this->fetch();
+    }
+
+
+//    添加配置
+    public function royalty_add(){
+
+        return $this->fetch();
+    }
+
+//   修改配置
+    public function royalty_edit(){
+
+        return $this->fetch();
+    }
+
+
 
 
 
