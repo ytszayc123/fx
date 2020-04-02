@@ -15,14 +15,10 @@ class Admin extends Controller
     {
         $data = input();
         unset($data["/view/admin_list"]);
-        if(!empty($data)){
-            //dump(strtotime($data["start"]));die;
-            $list = \app\admin\model\Admin::sreachAdminList($data["start"],$data["end"],$data["username"],$data["status"]);
-            $this->assign("boo",0);
-            $this->assign('data',$data);
-        }else{
+        if(empty($data)){
             $list = \app\admin\model\Admin::findAdminList();
-            $this->assign("boo",1);
+        }else{
+            $list = \app\admin\model\Admin::sreachAdminList($data["start"],$data["end"],$data["username"],$data["status"]);
         }
         $this->assign("list",$list);//分页数据
         $this->assign("count",$list->total());//总条数

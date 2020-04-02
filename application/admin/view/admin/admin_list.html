@@ -6,9 +6,9 @@
 <div class="x-nav">
           <span class="layui-breadcrumb">
             <a href="">首页</a>
-            <a href="">演示</a>
+            <a href="">管理员管理</a>
             <a>
-              <cite>导航元素</cite></a>
+              <cite>管理员列表</cite></a>
           </span>
     <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" onclick="location.reload()" title="刷新">
         <i class="layui-icon layui-icon-refresh" style="line-height:30px"></i></a>
@@ -19,41 +19,22 @@
             <div class="layui-card">
                 <div class="layui-card-body ">
                     <form class="layui-form layui-col-space5">
-                        {if $boo==0}
                         <div class="layui-inline layui-show-xs-block">
-                            <input class="layui-input"  autocomplete="off" placeholder="开始日"  name="start" id="starts">
+                            <input class="layui-input"  autocomplete="off" placeholder="开始日"  name="start" id="start">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
-                            <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="ends">
+                            <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="end">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
                             <input type="text" name="username"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
                             <select name="status">
-                                <option value="">状态</option>
+                                <option value="">状态:默认为启用</option>
                                 <option value="0">禁用</option>
                                 <option value="1">启用</option>
                             </select>
                         </div>
-                        {elseif 1/}
-                            <div class="layui-inline layui-show-xs-block">
-                                <input class="layui-input"  autocomplete="off" placeholder="开始日"  name="start" id="start">
-                            </div>
-                            <div class="layui-inline layui-show-xs-block">
-                                <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="end">
-                            </div>
-                            <div class="layui-inline layui-show-xs-block">
-                                <input type="text" name="username"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
-                            </div>
-                            <div class="layui-inline layui-show-xs-block">
-                                <select name="status">
-                                    <option value="">状态</option>
-                                    <option value="0">禁用</option>
-                                    <option value="1">启用</option>
-                                </select>
-                            </div>
-                        {/if}
                         <div class="layui-inline layui-show-xs-block">
                             <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
                         </div>
@@ -118,8 +99,9 @@
         var laydate = layui.laydate;
         var form = layui.form;
         form.on('submit(sreach)',function(data){
-            console.log(data.field);
-            //location.href='view/admin_list?start='+data.field.start+'&end='+data.field.end+"&username="+data.field.username;
+            //console.log(data.field.status);
+            location.href='/view/admin_list?start='+data.field.start+'&end='+data.field.end+"&username="+data.field.username+"&status="+data.field.status;
+            //xadmin.add_tab("管理员搜索",url);
         });
 
         //执行一个laydate实例

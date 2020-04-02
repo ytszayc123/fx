@@ -32,10 +32,8 @@ class Admin extends Model
      * */
     public static function findAdminList()
     {
-//        return Db::name("admin")
-//            //->where('aname',"neq","admin")
-//            ->page(10);
         return Admin::where("aname" ,"neq","admin")
+            ->where("status","eq",1)
             ->paginate(10);
     }
 
@@ -46,14 +44,14 @@ class Admin extends Model
     }
 
     /*按要求查询管理员列表*/
-    public static function sreachAdminList($start,$end,$username,$status)
+    public static function sreachAdminList($start="",$end="",$username="",$status="")
     {
         $admin = Db::name("admin")->where("aname","neq","admin");
         if($start != ""){
             $admin = $admin->where("addtime","gt",strtotime($start));
         }
         if($end != ""){
-            $admin = $admin->where("addtime","lt",strtotime($start));
+            $admin = $admin->where("addtime","lt",strtotime($end));
         }
         if($username != ""){
             $admin = $admin->where("aname","eq",$username);
@@ -61,7 +59,7 @@ class Admin extends Model
         if($status !=""){
             $admin = $admin->where("status","eq",$status);
         }
-        return $admin->paginate(10);
+        return $admin->paginate(10,false,["query"=>request()->param()]);
     }
 
 }

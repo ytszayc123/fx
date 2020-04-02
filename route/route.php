@@ -23,6 +23,7 @@ Route::get("view/login","admin/Login/login_view");
 Route::get("view/admin_list","admin/admin/admin_list");
 Route::get("view/admin_add","admin/admin/admin_add");
 Route::get("view/user_list","admin/user/user_list");
+Route::get("view/welcome","admin/view/welcome");
 /*贺命雄接口路由*/
 //Route::post("login/login","admin/login/login");
 Route::rule('login','admin/login/login','POST');
