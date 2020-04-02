@@ -45,11 +45,3 @@ function Twist($status)
     }
 }
 
-///*将年-月-日转换成时间戳*/
-//function strtotime($str)
-//{
-//    $arr = date_parse_from_format('Y年m月d日',$str);
-//    return mktime(0,0,0,$arr['month'],$arr['day'],$arr['year']);
-//}
-
-

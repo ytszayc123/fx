@@ -19,24 +19,41 @@
             <div class="layui-card">
                 <div class="layui-card-body ">
                     <form class="layui-form layui-col-space5">
+                        {if $boo==0}
                         <div class="layui-inline layui-show-xs-block">
-                            <input type="hidden" id="count" value={$count}>
-                            <input class="layui-input"  autocomplete="off" placeholder="开始日" name="start" id="start">
+                            <input class="layui-input"  autocomplete="off" placeholder="开始日"  name="start" id="starts">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
-                            <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="end">
+                            <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="ends">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
                             <input type="text" name="username"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
-                            <select class="layui-select" name = "status" title="状态">
+                            <select name="status">
                                 <option value="">状态</option>
                                 <option value="0">禁用</option>
                                 <option value="1">启用</option>
                             </select>
-                           <!-- <input type="text" name="status"  placeholder="请输入用户名" autocomplete="off" class="layui-input">-->
                         </div>
+                        {elseif 1/}
+                            <div class="layui-inline layui-show-xs-block">
+                                <input class="layui-input"  autocomplete="off" placeholder="开始日"  name="start" id="start">
+                            </div>
+                            <div class="layui-inline layui-show-xs-block">
+                                <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="end">
+                            </div>
+                            <div class="layui-inline layui-show-xs-block">
+                                <input type="text" name="username"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-inline layui-show-xs-block">
+                                <select name="status">
+                                    <option value="">状态</option>
+                                    <option value="0">禁用</option>
+                                    <option value="1">启用</option>
+                                </select>
+                            </div>
+                        {/if}
                         <div class="layui-inline layui-show-xs-block">
                             <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
                         </div>
@@ -101,10 +118,9 @@
         var laydate = layui.laydate;
         var form = layui.form;
         form.on('submit(sreach)',function(data){
-            //console.log(data.field);
-            location.href='view/admin_list?start='+data.field.start+'&end='+data.field.end+"&username="+data.field.username;
+            console.log(data.field);
+            //location.href='view/admin_list?start='+data.field.start+'&end='+data.field.end+"&username="+data.field.username;
         });
-
 
         //执行一个laydate实例
         laydate.render({
@@ -126,18 +142,25 @@
         let message;
         let msg;
         let status;
+        let deleteClass;
+        let addClass;
+        let addHtml;
         switch ($(obj).attr("title")) {
             case "禁用":
                 msg="确认要启用吗?";
                 status = 1;
                 message = "启用";
+
                 // layer.confirm("确认要启用吗?",function(index){
                 //     //console.log(index);
                 // });
                 $(obj).attr("title","启用");
                 $(obj).find('i').html('&#xe601;');
-                $(obj).parents("tr").find(".td-status").find('span').removeClass("layui-btn-disabled");
-                $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-normal').html('启用');
+                deleteClass = "layui-btn-disabled";
+                addClass = "layui-btn-normal";
+                addHtml = "启用";
+                // $(obj).parents("tr").find(".td-status").find('span').removeClass("layui-btn-disabled");
+                // $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-normal').html('启用');
                 break;
             case "启用":
                 msg = "确认要禁用吗?";
@@ -145,25 +168,39 @@
                 message ="禁用";
                 $(obj).attr("title","禁用");
                 $(obj).find('i').html('&#xe62f;');
-                $(obj).parents("tr").find(".td-status").find('span').removeClass("layui-btn-normal");
-                $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('禁用');
+                deleteClass = "layui-btn-normal";
+                addClass = "layui-btn-disabled";
+                addHtml = "禁用";
+                // $(obj).parents("tr").find(".td-status").find('span').removeClass("layui-btn-normal");
+                // $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('禁用');
                 break;
         }
-        layer.confirm(msg,function(){
-            $.post(
-                "/admin/status",
-                {id:id,status:status},
-                function(e){
-                    if (e.code === 200) {
-                        layer.msg(message+e.msg, {time: 1000});
-                        xadmin.father_reload();
-                    } else {
-                        layer.msg(message+e.msg, { time: 1000});
-                        xadmin.father_reload();
-                    }
+        layer.confirm(
+            msg,{
+                btn:["确认","取消"],
+                btn1:function(index,layero){
+                    $.post(
+                        "/admin/status",
+                        {id:id,status:status},
+                        function(e){
+                                layer.msg(message+e.msg, { time: 1000});
+                                $(obj).parents("tr").find(".td-status").find('span').removeClass(deleteClass);
+                                $(obj).parents("tr").find(".td-status").find('span').addClass(addClass).html(addHtml);
+                                //弹窗响应后1s后定时刷新父页面
+                                window.setTimeout(function(){
+                                    xadmin.father_reload();
+                                },1000)
+                        }
+                    );
+                },
+                btn2:function(index,layero){
+                    //xadmin.father_reload();
+                },
+                cancel: function(index, layero){
+                   // xadmin.father_reload();
+                    return false;
                 }
-            );
-        });
+            });
     }
 </script>
 {/block}
